@@ -21,9 +21,9 @@ jobs:
 
       # publishes Blazor project to the release folder
       - name: Publish .NET Project
-        run: dotnet publish Eikels.csproj -c Release -o release --nologo
+        run: dotnet publish Eikels/Eikels.csproj -c Release -o release --nologo
 
-      # changes the base-tag in index.html from '/' to 'BlazorGitHubPagesDemo' to match GitHub Pages repository subdirectory
+      # changes the base-tag in index.html from '/' to 'Eikels' to match GitHub Pages repository subdirectory
       - name: Change base-tag in index.html from / to Eikels
         run: sed -i 's/<base href="\/" \/>/<base href="\/Eikels\/" \/>/g' release/wwwroot/index.html
 
