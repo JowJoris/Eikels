@@ -71,4 +71,24 @@ public class DataService : IDataService
                 || (dateTime.Month == DateTime.Now.Month && dateTime.Day < DateTime.Now.Day);
         }
     }
+
+    public async Task<Dictionary<string, int>> GetEikelList()
+    {
+        await GetMatches();
+
+        var eikelList = new Dictionary<string, int>();
+
+        foreach (var match in Matches.Where(m => !string.IsNullOrWhiteSpace(m.Eikel)))
+        {
+            if (!eikelList.TryGetValue(match.Eikel, out int value))
+            {
+                value = 0;
+                eikelList.Add(match.Eikel, 0);
+            }
+
+            eikelList[match.Eikel] = value + 1;
+        }
+        eikelList = eikelList.OrderByDescending(e => e.Value).ToDictionary(e => e.Key, e => e.Value);
+        return eikelList;
+    }
 }
