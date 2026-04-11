@@ -20,7 +20,7 @@
 
             </MudPaper>
         </MudItem>
-        <MudItem xs="12" sm="12" md="3">
+        <MudItem xs="12" sm="6" md="3">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
                 <MudText Typo="Typo.body1">Huidige eikel 🌰</MudText>
                 <MudText Typo="Typo.h4">@CurrentEikel</MudText>
@@ -29,7 +29,7 @@
         <MudItem xs="12" sm="6" md="3">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
                 <MudText Typo="Typo.body1">Vaakst verkozen tot Man of the Match 🏆</MudText>
-                <MudText Typo="Typo.h4">@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Key (@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Value)</MudText>
+                <MudText Typo="Typo.h4">@ManOfTheMatchList.FirstOrDefault().Key (@ManOfTheMatchList.FirstOrDefault().Value)</MudText>
             </MudPaper>
         </MudItem>
         <MudItem xs="12" sm="6" md="3">

@@ -44,7 +44,7 @@ public class DataService : IDataService
             }
         }
 
-        return motmList;
+        return motmList.OrderByDescending(m => m.Value).ToDictionary(e => e.Key, e => e.Value);
     }
 
     public async Task<Match?> GetNextMatch()
@@ -88,7 +88,6 @@ public class DataService : IDataService
 
             eikelList[match.Eikel] = value + 1;
         }
-        eikelList = eikelList.OrderByDescending(e => e.Value).ToDictionary(e => e.Key, e => e.Value);
-        return eikelList;
+        return eikelList.OrderByDescending(e => e.Value).ToDictionary(e => e.Key, e => e.Value);
     }
 }
