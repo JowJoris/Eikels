@@ -1,5 +1,35 @@
 [
   {
+    "Opponent": "FC Trias 6",
+    "Location": "Uit",
+    "Date": "2026-05-17",
+    "Players": [],
+    "Score": "",
+    "Eikel": "",
+    "Type": "Competitie",
+    "ManOfTheMatch": []
+  },
+  {
+    "Opponent": "Grol 12",
+    "Location": "Thuis",
+    "Date": "2026-05-10",
+    "Players": [],
+    "Score": "",
+    "Eikel": "",
+    "Type": "Competitie",
+    "ManOfTheMatch": []
+  },
+  {
+    "Opponent": "KSV 4",
+    "Location": "Uit",
+    "Date": "2026-04-19",
+    "Players": [],
+    "Score": "",
+    "Eikel": "",
+    "Type": "Competitie",
+    "ManOfTheMatch": []
+  },
+  {
     "Opponent": "RKZVC 6",
     "Location": "Thuis",
     "Date": "2026-04-12",
@@ -24,6 +54,237 @@
     "Type": "Competitie",
     "ManOfTheMatch": [
     ]
+  },
+  {
+    "Date": "2026-04-06",
+    "Eikel": "Thijs Navis",
+    "ManOfTheMatch": [
+      "Luuk Rensing",
+      "Niels van den Ham",
+      "Kevin Velthuys",
+      "Geert te Hennepe"
+    ],
+    "Type": "Competite",
+    "Opponent": "AD '69 2",
+    "Location": "Uit",
+    "Score": "5-1"
+  },
+  {
+    "Date": "2026-03-29",
+    "Eikel": "Koen Nieuwenhuis",
+    "ManOfTheMatch": [
+      "Wobbe Smit"
+    ],
+    "Type": "Competite",
+    "Opponent": "Sp Rekken 4",
+    "Location": "Uit",
+    "Score": "1-1"
+  },
+  {
+    "Date": "2026-03-22",
+    "Eikel": "Joris Huinink",
+    "ManOfTheMatch": [
+      "Geert te Hennepe"
+    ],
+    "Type": "Competite",
+    "Opponent": "HMC '17 3",
+    "Location": "Thuis",
+    "Score": "0-1"
+  },
+  {
+    "Date": "2026-03-15",
+    "Eikel": "Bart Stronks",
+    "ManOfTheMatch": [
+      "Jochem Rensen"
+    ],
+    "Type": "Competite",
+    "Opponent": "Doetinchem 4",
+    "Location": "Uit",
+    "Score": "2-0"
+  },
+  {
+    "Date": "2026-03-08",
+    "Eikel": "Geert te Hennepe",
+    "ManOfTheMatch": [
+      "Wessel Rensen"
+    ],
+    "Type": "Competite",
+    "Opponent": "Varsseveld 5",
+    "Location": "Thuis",
+    "Score": "0-2"
+  },
+  {
+    "Date": "2026-03-01",
+    "Eikel": "Randy Visser",
+    "ManOfTheMatch": [
+      "Roel Woordes"
+    ],
+    "Type": "Competite",
+    "Opponent": "VIOS B. 6",
+    "Location": "Uit",
+    "Score": "5-1"
+  },
+  {
+    "Date": "2026-02-08",
+    "Eikel": "Jochem Meulenbeek",
+    "ManOfTheMatch": [
+      "Geert te Hennepe"
+    ],
+    "Type": "Competite",
+    "Opponent": "Longa '30 13",
+    "Location": "Thuis",
+    "Score": "1-2"
+  },
+  {
+    "Date": "2026-01-25",
+    "Eikel": "Jorn Meulenbeek",
+    "ManOfTheMatch": [
+      "Mark Luiten",
+      "Harm Visser",
+      "Thijs Navis"
+    ],
+    "Type": "Competite",
+    "Opponent": "RKZVC 6",
+    "Location": "Uit",
+    "Score": "0-0"
+  },
+  {
+    "Date": "2025-12-14",
+    "Eikel": "Harm Visser",
+    "ManOfTheMatch": [
+      "Rutger Hoefman"
+    ],
+    "Type": "Competite",
+    "Opponent": "Doetinchem 4",
+    "Location": "Thuis",
+    "Score": "1-2"
+  },
+  {
+    "Date": "2025-12-07",
+    "Eikel": "Harm Visser",
+    "ManOfTheMatch": [
+      "Tijmen te Bokkel"
+    ],
+    "Opponent": "Grol 12",
+    "Location": "Uit",
+    "Score": "0-0",
+    "Type": "Competite"
+  },
+  {
+    "Date": "2025-11-30",
+    "Eikel": "Geert te Hennepe",
+    "ManOfTheMatch": [
+      "Niek Bussink"
+    ],
+    "Type": "Competite",
+    "Opponent": "FC Trias 6",
+    "Location": "Thuis",
+    "Score": "1-5"
+  },
+  {
+    "Date": "2025-11-23",
+    "Eikel": "Luuk Schreurs",
+    "ManOfTheMatch": [
+      "Koen Pardijs",
+      "Harm Visser"
+    ],
+    "Type": "Competite",
+    "Opponent": "KSV 4",
+    "Location": "Thuis",
+    "Score": "2-1"
+  },
+  {
+    "Date": "2025-11-16",
+    "Eikel": "Mark Luiten",
+    "ManOfTheMatch": [
+      "Harm Visser"
+    ],
+    "Type": "Competite",
+    "Opponent": "VIOS B. 6",
+    "Location": "Thuis",
+    "Score": "2-3"
+  },
+  {
+    "Date": "2025-11-09",
+    "Eikel": "Ibe Smit",
+    "ManOfTheMatch": [
+      "Rutger Hoefman",
+      "Tijmen te Bokkel"
+    ],
+    "Type": "Competite",
+    "Opponent": "Sp Rekken 4",
+    "Location": "Thuis",
+    "Score": "2-1"
+  },
+  {
+    "Date": "2025-11-02",
+    "Eikel": "Ibe Smit",
+    "ManOfTheMatch": [
+      "Wobbe Smit"
+    ],
+    "Type": "Competite",
+    "Opponent": "HMC '17 3",
+    "Location": "Uit",
+    "Score": "1-3"
+  },
+  {
+    "Date": "2025-10-19",
+    "Eikel": "",
+    "ManOfTheMatch": [
+      "Julian Heusinkveld"
+    ],
+    "Type": "Competite",
+    "Opponent": "AD '69 2",
+    "Location": "Thuis",
+    "Score": "2-3"
+  },
+  {
+    "Date": "2025-10-12",
+    "Eikel": "Jochem Meulenbeek",
+    "ManOfTheMatch": [
+      "Niek Bussink"
+    ],
+    "Type": "Competite",
+    "Opponent": "Varsseveld 5",
+    "Location": "Uit",
+    "Score": "3-0"
+  },
+  {
+    "Date": "2025-09-28",
+    "Eikel": "Randy Visser",
+    "ManOfTheMatch": [
+      "Geert te Hennepe",
+      "Harm Visser"
+    ],
+    "Type": "Competite",
+    "Opponent": "Longa '30 13'",
+    "Score": "2-3",
+    "Location": "Uit"
+  },
+  {
+    "Date": "2025-09-14",
+    "Eikel": "Wobbe Smit",
+    "ManOfTheMatch": [
+      "Thijs Navis",
+      "Jochem Rensen",
+      "Wobbe Smit"
+    ],
+    "Type": "Beker",
+    "Opponent": "FC Trias 5",
+    "Score": "2-6",
+    "Location": "Thuis"
+  },
+  {
+    "Date": "2025-09-07",
+    "Eikel": "Joris Huinink",
+    "ManOfTheMatch": [
+      "Bart Stronks",
+      "Sjoerd Rensing"
+    ],
+    "Type": "Beker",
+    "Opponent": "Westendorp 2",
+    "Score": "7-0",
+    "Location":  "Uit"
   },
   {
     "Opponent": "Varsseveld 6",

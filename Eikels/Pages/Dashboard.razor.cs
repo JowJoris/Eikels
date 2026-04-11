@@ -9,6 +9,7 @@ namespace Eikels.Pages
         public Match? NextMatch { get; set; }
         public string? CurrentEikel { get; set; }
         public Dictionary<string, int> ManOfTheMatchList { get; set; } = [];
+        public Player? NextBirthdayPlayer { get; set; }
         public Dashboard(IDataService dataService)
         {
             _dataService = dataService;
@@ -19,7 +20,7 @@ namespace Eikels.Pages
             ManOfTheMatchList = await _dataService.GetManOfTheMatchList();
             NextMatch = await _dataService.GetNextMatch();
             CurrentEikel = await _dataService.GetCurrentEikel();
-
+            NextBirthdayPlayer = await _dataService.GetNextBirtdayPlayer();
         }
     }
 }

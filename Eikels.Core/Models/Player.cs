@@ -3,6 +3,6 @@
     public class Player
     {
         public string Name { get; set; }
-        public DateOnly Birthday { get; set; }
+        public DateTime Birthday { get; set; }
     }
 }

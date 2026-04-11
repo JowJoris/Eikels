@@ -4,31 +4,39 @@
 
 <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
     <MudGrid>
-        <MudItem xs="12" sm="6" md="4">
+        <MudItem xs="12" sm="6" md="3">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                <p>Volgende wedstrijd</p>
+                <MudText Typo="Typo.body1">Volgende wedstrijd ⚽</MudText>
                 @if(NextMatch == null)
                 {
-                    <h1>N.B.</h1>
+                    <MudText Typo="Typo.h4">N.B.</MudText>
                 }
                 else
                 {
-                    <h1>@NextMatch.Opponent</h1>
-                    <h3>@NextMatch.Location</h3>
+                    <MudText Typo="Typo.h4">@NextMatch.Opponent</MudText>
+                    <MudText Typo="Typo.subtitle1">@NextMatch.Location</MudText>
+                    <MudText Typo="Typo.subtitle2">@NextMatch.Date.ToString("dd-MM")</MudText>
                 }
 
             </MudPaper>
         </MudItem>
-        <MudItem xs="12" sm="12" md="4">
+        <MudItem xs="12" sm="12" md="3">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                <p>Huidige eikel</p>
-                <h1>@CurrentEikel</h1>
+                <MudText Typo="Typo.body1">Huidige eikel 🌰</MudText>
+                <MudText Typo="Typo.h4">@CurrentEikel</MudText>
             </MudPaper>
         </MudItem>
-        <MudItem xs="12" sm="6" md="4">
+        <MudItem xs="12" sm="6" md="3">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                <p>Vaakst verkozen tot Man of the Match</p>
-                <h1>@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Key (@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Value)</h1>
+                <MudText Typo="Typo.body1">Vaakst verkozen tot Man of the Match 🏆</MudText>
+                <MudText Typo="Typo.h4">@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Key (@ManOfTheMatchList.OrderByDescending(m => m.Value).FirstOrDefault().Value)</MudText>
+            </MudPaper>
+        </MudItem>
+        <MudItem xs="12" sm="6" md="3">
+            <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
+                <MudText Typo="Typo.body1">Volgende jarig 🎂</MudText>
+                <MudText Typo="Typo.h4">@NextBirthdayPlayer?.Name</MudText>
+                <MudText Typo="Typo.subtitle1">@NextBirthdayPlayer?.Birthday.ToString("dd-MM-yyyy")</MudText>
             </MudPaper>
         </MudItem>
     </MudGrid>

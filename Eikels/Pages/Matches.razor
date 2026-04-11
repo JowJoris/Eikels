@@ -2,7 +2,24 @@
 
 <PageTitle>Matches</PageTitle>
 
-@foreach(var match in MatchList)
-{
-    <p>@match.Date.ToString("dd-MM-yyyy") @match.Location @match.Opponent @match.Score</p>
-}
+<MudTable Items="MatchList" Dense="true">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Wedstrijden</MudText>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh>Datum</MudTh>
+        <MudTh>Tegenstander</MudTh>
+        <MudTh>Locatie</MudTh>
+        <MudTh>Score</MudTh>
+        <MudTh>Eikel</MudTh>
+        <MudTh>Man of the Match</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Datum">@context.Date.ToString("dd-MM")</MudTd>
+        <MudTd DataLabel="Tegenstander">@context.Opponent</MudTd>
+        <MudTd DataLabel="Locatie">@context.Location</MudTd>
+        <MudTd DataLabel="Score">@context.Score</MudTd>
+        <MudTd DataLabel="Eikel">@context.Eikel</MudTd>
+        <MudTd DataLabel="Man of the Match">@string.Join(", ",context.ManOfTheMatch)</MudTd>
+    </RowTemplate>
+</MudTable>
