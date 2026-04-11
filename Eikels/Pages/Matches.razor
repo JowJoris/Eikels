@@ -1,10 +1,8 @@
 ﻿@page "/matches"
 
-<PageTitle>Match</PageTitle>
-
-<h1>Matches</h1>
+<PageTitle>Matches</PageTitle>
 
 @foreach(var match in MatchList)
 {
-    <p>@match.Date @match.Location @match.Opponent @match.Score</p>
+    <p>@match.Date.ToString("dd-MM-yyyy") @match.Location @match.Opponent @match.Score</p>
 }
