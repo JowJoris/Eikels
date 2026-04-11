@@ -1,0 +1,10 @@
+﻿@page "/matches"
+
+<PageTitle>Match</PageTitle>
+
+<h1>Matches</h1>
+
+@foreach(var match in MatchList)
+{
+    <p>@match.Date @match.Location @match.Opponent @match.Score</p>
+}
