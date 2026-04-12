@@ -51,7 +51,7 @@ public class DataService : IDataService
     {
         await GetMatches();
 
-        return Matches.Where(m => m.Date > DateTime.UtcNow.Date.AddDays(-1) && !string.IsNullOrWhiteSpace(m.Score)).OrderBy(m => m.Date).FirstOrDefault();
+        return Matches.Where(m => m.Date > DateTime.UtcNow.Date.AddDays(-1) && string.IsNullOrWhiteSpace(m.Score)).OrderBy(m => m.Date).FirstOrDefault();
     }
 
     public async Task<string?> GetCurrentEikel()
