@@ -1,0 +1,24 @@
+﻿@page "/spelers"
+@using Eikels.Core.Models
+
+<PageTitle>Spelers</PageTitle>
+
+<MudTable Items="PlayerList" AllowUnsorted="false">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">Spelers</MudText>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh><MudTableSortLabel InitialDirection="SortDirection.Ascending" SortBy="new Func<Player, object>(x => x.Name)">Naam</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Matches)">Wedstrijden</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Goals)">Doelpunten</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.ManOfTheMatch)">Man of the Match</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Eikels)">Eikels</MudTableSortLabel></MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Naam">@context.Name</MudTd>
+        <MudTd DataLabel="Aantal">@context.Matches</MudTd>
+        <MudTd DataLabel="Doelpunten">@context.Goals</MudTd>
+        <MudTh DataLabel="Man of the Match">@context.ManOfTheMatch</MudTh>
+        <MudTh DataLabel="Eikels">@context.Eikels</MudTh>
+    </RowTemplate>
+</MudTable>

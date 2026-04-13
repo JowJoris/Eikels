@@ -55,6 +55,10 @@
     "ManOfTheMatch": [
       "Thijs Navis",
       "Niels van den Ham"
+    ],
+    "GoalScorers": [
+      "Thijs Navis",
+      "Harm Visser"
     ]
   },
   {
@@ -69,7 +73,10 @@
     "Type": "Competite",
     "Opponent": "AD '69 2",
     "Location": "Uit",
-    "Score": "5-1"
+    "Score": "5-1",
+    "GoalScorers": [
+      "Harm Visser"
+    ]
   },
   {
     "Date": "2026-03-29",
@@ -80,7 +87,10 @@
     "Type": "Competite",
     "Opponent": "Sp Rekken 4",
     "Location": "Uit",
-    "Score": "1-1"
+    "Score": "1-1",
+    "GoalScorers": [
+      "Wobbe Smit"
+    ]
   },
   {
     "Date": "2026-03-22",
@@ -124,7 +134,10 @@
     "Type": "Competite",
     "Opponent": "VIOS B. 6",
     "Location": "Uit",
-    "Score": "5-1"
+    "Score": "5-1",
+    "GoalScorers": [
+      "Thijs Navis"
+    ]
   },
   {
     "Date": "2026-02-08",
@@ -193,7 +206,11 @@
     "Type": "Competite",
     "Opponent": "KSV 4",
     "Location": "Thuis",
-    "Score": "2-1"
+    "Score": "2-1",
+    "GoalScorers": [
+      "Dennis van Vreeswijk",
+      "Thijs Navis"
+    ]
   },
   {
     "Date": "2025-11-16",
@@ -216,7 +233,11 @@
     "Type": "Competite",
     "Opponent": "Sp Rekken 4",
     "Location": "Thuis",
-    "Score": "2-1"
+    "Score": "2-1",
+    "GoalScorers": [
+      "Kevin Winterswijk",
+      "Harm Visser"
+    ]
   },
   {
     "Date": "2025-11-02",
@@ -227,7 +248,12 @@
     "Type": "Competite",
     "Opponent": "HMC '17 3",
     "Location": "Uit",
-    "Score": "1-3"
+    "Score": "1-3",
+    "GoalScorers": [
+      "Wobbe Smit",
+      "Wobbe Smit",
+      "Wobbe Smit"
+    ]
   },
   {
     "Date": "2025-10-19",
@@ -238,7 +264,10 @@
     "Type": "Competite",
     "Opponent": "AD '69 2",
     "Location": "Thuis",
-    "Score": "2-3"
+    "Score": "2-3",
+    "GoalScorers": [
+      "Koen Nieuwenhuis"
+    ]
   },
   {
     "Date": "2025-10-12",
@@ -261,7 +290,12 @@
     "Type": "Competite",
     "Opponent": "Longa '30 13'",
     "Score": "2-3",
-    "Location": "Uit"
+    "Location": "Uit",
+    "GoalScorers": [
+      "Harm Visser",
+      "Harm Visser",
+      "Geert te Hennepe"
+    ]
   },
   {
     "Date": "2025-09-14",
@@ -274,7 +308,24 @@
     "Type": "Beker",
     "Opponent": "FC Trias 5",
     "Score": "2-6",
-    "Location": "Thuis"
+    "Location": "Thuis",
+    "Players": [
+      "Bart Stronks",
+      "Geert te Henepe",
+      "Thijs Navis",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Jochem Meulenbeek",
+      "Luka Koskamp",
+      "Henk Klein Nibbelink",
+      "Jochem de Vroome",
+      "Mark Luiten",
+      "H Walvoort",
+      "I Jansen",
+      "Roel Woordes"
+    ]
   },
   {
     "Date": "2025-09-07",
@@ -286,7 +337,24 @@
     "Type": "Beker",
     "Opponent": "Westendorp 2",
     "Score": "7-0",
-    "Location":  "Uit"
+    "Location": "Uit",
+    "Players": [
+      "Bart Stronks",
+      "Geert te Hennepe",
+      "Joris Huinink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Luka Koskamp",
+      "Henk Klein Nibbelink",
+      "Jochem de Vroome",
+      "Koen Nieuwenhuis",
+      "Jochem Meulenbeek",
+      "Frank Blekking",
+      "Sjoerd Rensing",
+      "Jordi Bussink"
+    ]
   },
   {
     "Opponent": "Varsseveld 6",
