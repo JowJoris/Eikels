@@ -253,6 +253,22 @@
       "Wobbe Smit",
       "Wobbe Smit",
       "Wobbe Smit"
+    ],
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Mark Luiten",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Jochem Meulenbeek",
+      "Kevin Velthuys",
+      "Koen Nieuwenhuis",
+      "Bram Gruppelaar",
+      "Jochem de Vroome",
+      "Perry van der Sligte",
+      "Jordi Kämink"
     ]
   },
   {
@@ -267,6 +283,23 @@
     "Score": "2-3",
     "GoalScorers": [
       "Koen Nieuwenhuis"
+    ],
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Joris Huinink",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Jochem Meulenbeek",
+      "Perry van der Sligte",
+      "Koen Nieuwenhuis",
+      "Bram Gruppelaar",
+      "Jordy Lorijn",
+      "Niek Bussink",
+      "Koen Pardijs",
+      "Luc Sheridan"
     ]
   },
   {
@@ -278,7 +311,23 @@
     "Type": "Competite",
     "Opponent": "Varsseveld 5",
     "Location": "Uit",
-    "Score": "3-0"
+    "Score": "3-0",
+    "Players": [
+      "Bart Stronks",
+      "Geert te Hennepe",
+      "Thijs Navis",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Jochem Meulenbeek",
+      "Koen Nieuwenhuis",
+      "Henk Klein Nibbelink",
+      "Joris Huinink",
+      "Niek Bussink",
+      "Sjoerd Rensing",
+      "Luuk Schreurs"
+    ]
   },
   {
     "Date": "2025-09-28",
@@ -295,6 +344,24 @@
       "Harm Visser",
       "Harm Visser",
       "Geert te Hennepe"
+    ],
+    "Players": [
+      "Bart Stronks",
+      "Geert te Hennepe",
+      "Thijs Navis",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Jochem Meulenbeek",
+      "Luka Koskamp",
+      "Henk Klein Nibbelink",
+      "Jochem de Vroome",
+      "Mark Luiten",
+      "Frank Blekkink",
+      "Koen Nieuwenhuis",
+      "Bram Gruppelaar",
+      "Joris Huinink"
     ]
   },
   {
@@ -311,7 +378,7 @@
     "Location": "Thuis",
     "Players": [
       "Bart Stronks",
-      "Geert te Henepe",
+      "Geert te Hennepe",
       "Thijs Navis",
       "Kevin Winterswijk",
       "Harm Visser",
@@ -351,7 +418,7 @@
       "Jochem de Vroome",
       "Koen Nieuwenhuis",
       "Jochem Meulenbeek",
-      "Frank Blekking",
+      "Frank Blekkink",
       "Sjoerd Rensing",
       "Jordi Bussink"
     ]

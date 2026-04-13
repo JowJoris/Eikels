@@ -29,7 +29,7 @@
                 }
                 else
                 {
-                    <MudText Typo="Typo.h4">@LastMatch.Score</MudText>
+                    <MudText Typo="Typo.h4" Color="GetScoreColor(LastMatch.Score, LastMatch.Location)">@LastMatch.Score</MudText>
                     <MudText Typo="Typo.subtitle1">@LastMatch.Opponent</MudText>
                     <MudText Typo="Typo.subtitle1">@LastMatch.Location</MudText>
                     <MudText Typo="Typo.subtitle2">@LastMatch.Date.ToString("dd-MM")</MudText>

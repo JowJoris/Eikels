@@ -30,7 +30,7 @@ namespace Eikels.Pages
                     }
 
                     player.Matches++;
-                    if (match.ManOfTheMatch.Contains(playerName))
+                    if (match.ManOfTheMatch.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                     {
                         player.ManOfTheMatch++;
                     }
@@ -38,10 +38,8 @@ namespace Eikels.Pages
                     {
                         player.Eikels++;
                     }
-                    if (match.GoalScorers.Contains(playerName))
-                    {
-                        player.Goals++;
-                    }
+
+                    player.Goals += match.GoalScorers.Count(gs => gs.Equals(playerName, StringComparison.OrdinalIgnoreCase));
                 }
             }
         }

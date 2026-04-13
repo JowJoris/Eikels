@@ -18,7 +18,7 @@
         <MudTd DataLabel="Datum">@context.Date.ToString("dd-MM")</MudTd>
         <MudTd DataLabel="Tegenstander">@context.Opponent</MudTd>
         <MudTd DataLabel="Locatie">@context.Location</MudTd>
-        <MudTd DataLabel="Score">@context.Score</MudTd>
+        <MudTd DataLabel="Score"><MudText Color="GetScoreColor(context.Score, context.Location)">@context.Score</MudText></MudTd>
         <MudTd DataLabel="Eikel">@context.Eikel</MudTd>
         <MudTd DataLabel="Man of the Match">@string.Join(", ",context.ManOfTheMatch)</MudTd>
     </RowTemplate>
