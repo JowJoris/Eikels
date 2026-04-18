@@ -18,5 +18,14 @@
             return null;
 
         }
+
+        public static int GetScoredGoals(string score, string location)
+        {
+            var split = score.Split('-');
+            var homeScore = int.Parse(split[0]);
+            var awayScore = int.Parse(split[1]);
+
+            return location.Equals("Thuis", StringComparison.OrdinalIgnoreCase) ? homeScore : awayScore;
+        }
     }
 }

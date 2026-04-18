@@ -29,5 +29,18 @@ namespace Eikels.Pages
                 _ => Color.Default
             };
         }
+
+        public string FormatGoalScorers(Match match)
+        {
+            if (string.IsNullOrWhiteSpace(match.Score)) return "";
+
+            var goalsScored = DataHelper.GetScoredGoals(match.Score, match.Location);
+
+            if (goalsScored != match.GoalScorers?.Count)
+                return "Ontbrekende doelpuntenmaker(s)";
+
+            var grouped = match.GoalScorers.GroupBy(g => g);
+            return string.Join(", ", grouped.Select(g => $"{g.Count()}x {g.Key}"));
+        }
     }
 }

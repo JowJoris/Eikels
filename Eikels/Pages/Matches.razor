@@ -13,6 +13,7 @@
         <MudTh>Score</MudTh>
         <MudTh>Eikel</MudTh>
         <MudTh>Man of the Match</MudTh>
+        <MudTh>Doelpuntenmakers</MudTh>
     </HeaderContent>
     <RowTemplate>
         <MudTd DataLabel="Datum">@context.Date.ToString("dd-MM")</MudTd>
@@ -21,5 +22,6 @@
         <MudTd DataLabel="Score"><MudText Color="GetScoreColor(context.Score, context.Location)">@context.Score</MudText></MudTd>
         <MudTd DataLabel="Eikel">@context.Eikel</MudTd>
         <MudTd DataLabel="Man of the Match">@string.Join(", ",context.ManOfTheMatch)</MudTd>
+        <MudTd DataLabel="Doelpuntenmakers">@FormatGoalScorers(context)</MudTd>
     </RowTemplate>
 </MudTable>
