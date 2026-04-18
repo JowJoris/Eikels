@@ -23,7 +23,23 @@
     "Opponent": "KSV 4",
     "Location": "Uit",
     "Date": "2026-04-19",
-    "Players": [],
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Luuk Rensing",
+      "Kevin Velthuys",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Kevin Winterswijk",
+      "Kevin Velthuys",
+      "Joris Huinink",
+      "Geert te Hennepe",
+      "R Wind",
+      "Perry van der Sligte",
+      "Koen Pardijs"
+    ],
     "Score": "",
     "Eikel": "",
     "Type": "Competitie",
@@ -67,6 +83,7 @@
     "ManOfTheMatch": [
       "Luuk Rensing",
       "Niels van den Ham",
+      "Jorn Meulenbeek",
       "Kevin Velthuys",
       "Geert te Hennepe"
     ],
@@ -76,6 +93,23 @@
     "Score": "5-1",
     "GoalScorers": [
       "Harm Visser"
+    ],
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Bram Navis",
+      "Kevin Velthuys",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Luuk Rensing",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Gerjan Hoefman"
     ]
   },
   {
@@ -90,6 +124,21 @@
     "Score": "1-1",
     "GoalScorers": [
       "Wobbe Smit"
+    ],
+    "Players":[
+      "Bart Stronks",
+      "Jochem de Vroome",
+      "Henk Klein Nibbelink",
+      "Thijs Navis",
+      "Kevin Velthuys",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Mark Luiten",
+      "Kevin Winterswijk"
     ]
   },
   {
@@ -101,7 +150,23 @@
     "Type": "Competite",
     "Opponent": "HMC '17 3",
     "Location": "Thuis",
-    "Score": "0-1"
+    "Score": "0-1",
+    "Players": [
+      "Bart Stronks",
+      "Jochem de Vroome",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Mark Luiten",
+      "Sjoerd Rensing",
+      "Frank Blekkink"
+    ]
   },
   {
     "Date": "2026-03-15",
@@ -112,7 +177,22 @@
     "Type": "Competite",
     "Opponent": "Doetinchem 4",
     "Location": "Uit",
-    "Score": "2-0"
+    "Score": "2-0",
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Ibe Smit",
+      "Kevin Velthuys",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Mark Luiten",
+      "Jochem de Vroome"
+    ]
   },
   {
     "Date": "2026-03-08",
@@ -123,7 +203,21 @@
     "Type": "Competite",
     "Opponent": "Varsseveld 5",
     "Location": "Thuis",
-    "Score": "0-2"
+    "Score": "0-2",
+    "Players": [
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Mark Luiten",
+      "Sjoerd Rensing"
+    ]
   },
   {
     "Date": "2026-03-01",
@@ -137,6 +231,21 @@
     "Score": "5-1",
     "GoalScorers": [
       "Thijs Navis"
+    ],
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Geert te Hennepe",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Kevin Velthuys",
+      "Sjoerd Rensing"
     ]
   },
   {
@@ -148,7 +257,23 @@
     "Type": "Competite",
     "Opponent": "Longa '30 13",
     "Location": "Thuis",
-    "Score": "1-2"
+    "Score": "1-2",
+    "Players":[
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Mark Luiten",
+      "Jochem de Vroome",
+      "Jorn Meulenbeek",
+      "Timo Koskamp",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Kevin Velthuys",
+      "Geert te Hennepe",
+      "Jordi Bussink"
+    ]
   },
   {
     "Date": "2026-01-25",
@@ -161,7 +286,23 @@
     "Type": "Competite",
     "Opponent": "RKZVC 6",
     "Location": "Uit",
-    "Score": "0-0"
+    "Score": "0-0",
+    "Players":[
+      "Timo Koskamp",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Mark Luiten",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Luka Koskamp",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Jochem de Vroome",
+      "Kevin Velthuys",
+      "Jorn Meulenbeek"
+    ]
   },
   {
     "Date": "2025-12-14",
@@ -172,7 +313,23 @@
     "Type": "Competite",
     "Opponent": "Doetinchem 4",
     "Location": "Thuis",
-    "Score": "1-2"
+    "Score": "1-2",
+    "Players":[
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Mark Luiten",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Luka Koskamp",
+      "Koen Nieuwenhuis",
+      "Joris Huinink",
+      "Timo Koskamp",
+      "Rutger Hoefman",
+      "Jochem de Vroome"
+    ]
   },
   {
     "Date": "2025-12-07",
@@ -183,7 +340,21 @@
     "Opponent": "Grol 12",
     "Location": "Uit",
     "Score": "0-0",
-    "Type": "Competite"
+    "Type": "Competite",
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Mark Luiten",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Luka Koskamp",
+      "Koen Nieuwenhuis",
+      "Jorn Meulenbeek",
+      "Timo Koskamp"
+    ]
   },
   {
     "Date": "2025-11-30",
@@ -194,7 +365,24 @@
     "Type": "Competite",
     "Opponent": "FC Trias 6",
     "Location": "Thuis",
-    "Score": "1-5"
+    "Score": "1-5",
+    "Players":[
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Joris Huinink",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Luka Koskamp",
+      "Koen Nieuwenhuis",
+      "Mark Luiten",
+      "Niek Bussink",
+      "Sjoerd Rensing",
+      "Luuk Schreurs",
+      "Tijmen te Bokkel"
+    ]
   },
   {
     "Date": "2025-11-23",
@@ -210,6 +398,20 @@
     "GoalScorers": [
       "Dennis van Vreeswijk",
       "Thijs Navis"
+    ],
+    "Players":[
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Joris Huinink",
+      "Wobbe Smit",
+      "Jorn Meulenbeek",
+      "Luka Koskamp",
+      "Sjoerd Rensing",
+      "Koen Pardijs",
+      "Niek Bussink"
     ]
   },
   {
@@ -221,7 +423,25 @@
     "Type": "Competite",
     "Opponent": "VIOS B. 6",
     "Location": "Thuis",
-    "Score": "2-3"
+    "Score": "2-3",
+    "Players":[
+      "M Dammers",
+      "Jorn Meulenbeek",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Mark Luiten",
+      "Joris Huinink",
+      "Jochem de Vroome",
+      "Koen Nieuwenhuis",
+      "Wobbe Smit",
+      "Ibe Smit",
+      "Harm Visser",
+      "Sjoerd Rensing",
+      "Niek Bussink",
+      "Bram Gruppelaar",
+      "Danny Willemsen",
+      "Thijs Walterbos"
+    ]
   },
   {
     "Date": "2025-11-09",
@@ -237,6 +457,22 @@
     "GoalScorers": [
       "Kevin Winterswijk",
       "Harm Visser"
+    ],
+    "Players":[
+      "Timo Koskamp",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Mark Luiten",
+      "Joris Huinink",
+      "Jochem de Vroome",
+      "Rutger Hoefman",
+      "Bram Gruppelaar",
+      "Sjoerd Rensing",
+      "Tijmen te Bokkel",
+      "Jordy Lorijn",
+      "Kevin Velthuys",
+      "Robbin Dibbets"
     ]
   },
   {
@@ -262,7 +498,7 @@
       "Mark Luiten",
       "Wobbe Smit",
       "Ibe Smit",
-      "Jochem Meulenbeek",
+      "Jorn Meulenbeek",
       "Kevin Velthuys",
       "Koen Nieuwenhuis",
       "Bram Gruppelaar",
@@ -390,7 +626,7 @@
       "Jochem de Vroome",
       "Mark Luiten",
       "H Walvoort",
-      "I Jansen",
+      "Ilja Jansen",
       "Roel Woordes"
     ]
   },
