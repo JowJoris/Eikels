@@ -10,6 +10,14 @@
         public string Eikel { get; set; }
         public string Type { get; set; }
         public List<string> ManOfTheMatch { get; set; } = [];
-        public List<string> GoalScorers { get; set; } = [];
+        public List<GoalScorer> GoalScorers { get; set; } = [];
+
+        public class GoalScorer
+        {
+            public string Name { get; set; }
+            public string? Assist { get; set; }
+            public int? Minute { get; set; }
+
+        }
     }
 }

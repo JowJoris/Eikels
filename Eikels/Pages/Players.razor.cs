@@ -39,7 +39,8 @@ namespace Eikels.Pages
                         player.Eikels++;
                     }
 
-                    player.Goals += match.GoalScorers.Count(gs => gs.Equals(playerName, StringComparison.OrdinalIgnoreCase));
+                    player.Goals += match.GoalScorers.Count(gs => gs.Name.Equals(playerName, StringComparison.OrdinalIgnoreCase));
+                    player.Assists += match.GoalScorers.Count(gs => !string.IsNullOrWhiteSpace(gs.Assist) && gs.Assist.Equals(playerName, StringComparison.OrdinalIgnoreCase));
                 }
             }
         }

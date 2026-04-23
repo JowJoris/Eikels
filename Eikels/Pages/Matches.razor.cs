@@ -39,7 +39,7 @@ namespace Eikels.Pages
             if (goalsScored != match.GoalScorers?.Count)
                 return "Ontbrekende doelpuntenmaker(s)";
 
-            var grouped = match.GoalScorers.GroupBy(g => g);
+            var grouped = match.GoalScorers.GroupBy(g => g.Name);
             return string.Join(", ", grouped.Select(g => $"{g.Count()}x {g.Key}"));
         }
     }

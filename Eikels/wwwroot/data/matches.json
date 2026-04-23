@@ -76,8 +76,16 @@
       "Niels van den Ham"
     ],
     "GoalScorers": [
-      "Thijs Navis",
-      "Harm Visser"
+      {
+        "Name": "Thijs Navis",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Harm Visser",
+        "Assist": null,
+        "Minute": null
+      }
     ]
   },
   {
@@ -95,7 +103,11 @@
     "Location": "Uit",
     "Score": "5-1",
     "GoalScorers": [
-      "Harm Visser"
+      {
+        "Name": "Harm Visser",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players": [
       "Bart Stronks",
@@ -126,7 +138,11 @@
     "Location": "Uit",
     "Score": "1-1",
     "GoalScorers": [
-      "Wobbe Smit"
+      {
+        "Name": "Wobbe Smit",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players":[
       "Bart Stronks",
@@ -233,7 +249,11 @@
     "Location": "Uit",
     "Score": "5-1",
     "GoalScorers": [
-      "Thijs Navis"
+      {
+        "Name": "Thijs Navis",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players": [
       "Bart Stronks",
@@ -399,8 +419,16 @@
     "Location": "Thuis",
     "Score": "2-1",
     "GoalScorers": [
-      "Dennis van Vreeswijk",
-      "Thijs Navis"
+      {
+        "Name": "Dennis van Vreeswijk",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Thijs Navis",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players":[
       "Bart Stronks",
@@ -458,8 +486,16 @@
     "Location": "Thuis",
     "Score": "2-1",
     "GoalScorers": [
-      "Kevin Winterswijk",
-      "Harm Visser"
+      {
+        "Name": "Kevin Winterswijk",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Harm Visser",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players":[
       "Timo Koskamp",
@@ -489,9 +525,21 @@
     "Location": "Uit",
     "Score": "1-3",
     "GoalScorers": [
-      "Wobbe Smit",
-      "Wobbe Smit",
-      "Wobbe Smit"
+      {
+        "Name": "Wobbe Smit",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Wobbe Smit",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Wobbe Smit",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players": [
       "Bart Stronks",
@@ -521,7 +569,11 @@
     "Location": "Thuis",
     "Score": "2-3",
     "GoalScorers": [
-      "Koen Nieuwenhuis"
+      {
+        "Name": "Koen Nieuwenhuis",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players": [
       "Bart Stronks",
@@ -580,9 +632,21 @@
     "Score": "2-3",
     "Location": "Uit",
     "GoalScorers": [
-      "Harm Visser",
-      "Harm Visser",
-      "Geert te Hennepe"
+      {
+        "Name": "Harm Visser",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Harm Visser",
+        "Assist": null,
+        "Minute": null
+      },
+      {
+        "Name": "Geert te Hennepe",
+        "Assist": null,
+        "Minute": null
+      }
     ],
     "Players": [
       "Bart Stronks",
