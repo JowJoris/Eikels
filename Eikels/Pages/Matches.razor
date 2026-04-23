@@ -9,21 +9,21 @@
         <MudText Typo="Typo.h6">Wedstrijden</MudText>
     </ToolBarContent>
     <HeaderContent>
-        <MudTh>Datum</MudTh>
+        <MudTh>📅</MudTh>
         <MudTh>Tegenstander</MudTh>
-        <MudTh>Locatie</MudTh>
+        <MudTh>📍</MudTh>
         <MudTh>Score</MudTh>
-        <MudTh>Eikel</MudTh>
-        <MudTh>Man of the Match</MudTh>
-        <MudTh>Doelpuntenmakers</MudTh>
+        <MudTh>🌰</MudTh>
+        <MudTh>🏆</MudTh>
+        <MudTh>⚽</MudTh>
     </HeaderContent>
     <RowTemplate>
-        <MudTd DataLabel="Datum">@context.Date.ToString("dd-MM")</MudTd>
+        <MudTd DataLabel="📅">@context.Date.ToString("dd-MM")</MudTd>
         <MudTd DataLabel="Tegenstander">@context.Opponent</MudTd>
-        <MudTd DataLabel="Locatie">@context.Location</MudTd>
+        <MudTd DataLabel="📍">@context.Location</MudTd>
         <MudTd DataLabel="Score"><MudText Color="GetScoreColor(context.Score, context.Location)">@context.Score</MudText></MudTd>
-        <MudTd DataLabel="Eikel">@context.Eikel</MudTd>
-        <MudTd DataLabel="Man of the Match">@string.Join(", ",context.ManOfTheMatch)</MudTd>
-        <MudTd DataLabel="Doelpuntenmakers">@FormatGoalScorers(context)</MudTd>
+        <MudTd DataLabel="🌰">@context.Eikel</MudTd>
+        <MudTd DataLabel="🏆">@string.Join(", ",context.ManOfTheMatch)</MudTd>
+        <MudTd DataLabel="⚽">@FormatGoalScorers(context)</MudTd>
     </RowTemplate>
 </MudTable>

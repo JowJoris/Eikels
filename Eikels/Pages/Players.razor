@@ -12,17 +12,17 @@
     <HeaderContent>
         <MudTh><MudTableSortLabel InitialDirection="SortDirection.Ascending" SortBy="new Func<Player, object>(x => x.Name)">Naam</MudTableSortLabel></MudTh>
         <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Matches)">Wedstrijden</MudTableSortLabel></MudTh>
-        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Goals)">Doelpunten</MudTableSortLabel></MudTh>
-        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Assists)">Assists</MudTableSortLabel></MudTh>
-        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.ManOfTheMatch)">Man of the Match</MudTableSortLabel></MudTh>
-        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Eikels)">Eikels</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Goals)">⚽</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Assists)">🦶</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.ManOfTheMatch)">🏆</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<Player, object>(x => x.Eikels)">🌰</MudTableSortLabel></MudTh>
     </HeaderContent>
     <RowTemplate>
         <MudTd DataLabel="Naam">@context.Name</MudTd>
-        <MudTd DataLabel="Aantal">@context.Matches</MudTd>
-        <MudTd DataLabel="Doelpunten">@context.Goals</MudTd>
-        <MudTd DataLabel="Assists">@context.Assists</MudTd>
-        <MudTh DataLabel="Man of the Match">@context.ManOfTheMatch</MudTh>
-        <MudTh DataLabel="Eikels">@context.Eikels</MudTh>
+        <MudTd DataLabel="Wedstrijden">@context.Matches</MudTd>
+        <MudTd DataLabel="⚽">@context.Goals</MudTd>
+        <MudTd DataLabel="🦶">@context.Assists</MudTd>
+        <MudTh DataLabel="🏆">@context.ManOfTheMatch</MudTh>
+        <MudTh DataLabel="🌰">@context.Eikels</MudTh>
     </RowTemplate>
 </MudTable>
