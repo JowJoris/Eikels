@@ -30,7 +30,6 @@
       "Luuk Rensing",
       "Kevin Velthuys",
       "Ibe Smit",
-      "Wobbe Smit",
       "Jorn Meulenbeek",
       "Kevin Winterswijk",
       "Kevin Velthuys",
@@ -66,7 +65,7 @@
       "Luuk Rensing",
       "Harm Visser",
       "Gerjan Hoefman",
-      "Robbin Dibbets"
+      "Robin Dibbets"
     ],
     "Score": "2-0",
     "Eikel": "Luuk Rensing",
@@ -78,13 +77,13 @@
     "GoalScorers": [
       {
         "Name": "Thijs Navis",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       },
       {
         "Name": "Harm Visser",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       }
     ]
   },
@@ -105,12 +104,12 @@
     "GoalScorers": [
       {
         "Name": "Harm Visser",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
       }
     ],
     "Players": [
       "Bart Stronks",
+      "Niels van den Ham",
       "Thijs Navis",
       "Henk Klein Nibbelink",
       "Bram Navis",
@@ -140,8 +139,7 @@
     "GoalScorers": [
       {
         "Name": "Wobbe Smit",
-        "Assist": null,
-        "Minute": null
+        "Assist": "Kevin Velthuys"
       }
     ],
     "Players":[
@@ -157,7 +155,8 @@
       "Koen Nieuwenhuis",
       "Joris Huinink",
       "Mark Luiten",
-      "Kevin Winterswijk"
+      "Kevin Winterswijk",
+      "Hidde Walvoort"
     ]
   },
   {
@@ -177,14 +176,15 @@
       "Kevin Winterswijk",
       "Harm Visser",
       "Ibe Smit",
-      "Wobbe Smit",
       "Jorn Meulenbeek",
       "Geert te Hennepe",
       "Koen Nieuwenhuis",
       "Joris Huinink",
       "Mark Luiten",
       "Sjoerd Rensing",
-      "Frank Blekkink"
+      "Frank Blekkink",
+      "Rick Wind",
+      "Robin Dibbets"
     ]
   },
   {
@@ -210,7 +210,8 @@
       "Koen Nieuwenhuis",
       "Joris Huinink",
       "Mark Luiten",
-      "Jochem de Vroome"
+      "Jochem de Vroome",
+      "Jochem Rensen"
     ]
   },
   {
@@ -224,6 +225,7 @@
     "Location": "Thuis",
     "Score": "0-2",
     "Players": [
+      "Bart Stronks",
       "Thijs Navis",
       "Henk Klein Nibbelink",
       "Kevin Winterswijk",
@@ -235,7 +237,8 @@
       "Koen Nieuwenhuis",
       "Joris Huinink",
       "Mark Luiten",
-      "Sjoerd Rensing"
+      "Sjoerd Rensing",
+      "Jochem Rensen"
     ]
   },
   {
@@ -251,8 +254,8 @@
     "GoalScorers": [
       {
         "Name": "Thijs Navis",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       }
     ],
     "Players": [
@@ -268,7 +271,9 @@
       "Koen Nieuwenhuis",
       "Joris Huinink",
       "Kevin Velthuys",
-      "Sjoerd Rensing"
+      "Sjoerd Rensing",
+      "Roel Woordes",
+      "Jordy Lorijn"
     ]
   },
   {
@@ -281,7 +286,7 @@
     "Opponent": "Longa '30 13",
     "Location": "Thuis",
     "Score": "1-2",
-    "Players":[
+    "Players": [
       "Bart Stronks",
       "Thijs Navis",
       "Henk Klein Nibbelink",
@@ -296,6 +301,12 @@
       "Kevin Velthuys",
       "Geert te Hennepe",
       "Jordi Bussink"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Harm Visser",
+        "Assist": null
+      }
     ]
   },
   {
@@ -318,13 +329,15 @@
       "Harm Visser",
       "Mark Luiten",
       "Wobbe Smit",
-      "Ibe Smit",
-      "Luka Koskamp",
-      "Koen Nieuwenhuis",
       "Joris Huinink",
       "Jochem de Vroome",
       "Kevin Velthuys",
-      "Jorn Meulenbeek"
+      "Jorn Meulenbeek",
+      "Frank Blekkink",
+      "Milan",
+      "Hidde Walvoort",
+      "Niek Bussink",
+      "Daan"
     ]
   },
   {
@@ -337,33 +350,6 @@
     "Opponent": "Doetinchem 4",
     "Location": "Thuis",
     "Score": "1-2",
-    "Players":[
-      "Bart Stronks",
-      "Thijs Navis",
-      "Henk Klein Nibbelink",
-      "Kevin Winterswijk",
-      "Harm Visser",
-      "Mark Luiten",
-      "Wobbe Smit",
-      "Ibe Smit",
-      "Luka Koskamp",
-      "Koen Nieuwenhuis",
-      "Joris Huinink",
-      "Timo Koskamp",
-      "Rutger Hoefman",
-      "Jochem de Vroome"
-    ]
-  },
-  {
-    "Date": "2025-12-07",
-    "Eikel": "Harm Visser",
-    "ManOfTheMatch": [
-      "Tijmen te Bokkel"
-    ],
-    "Opponent": "Grol 12",
-    "Location": "Uit",
-    "Score": "0-0",
-    "Type": "Competite",
     "Players": [
       "Bart Stronks",
       "Thijs Navis",
@@ -373,10 +359,31 @@
       "Mark Luiten",
       "Wobbe Smit",
       "Ibe Smit",
-      "Luka Koskamp",
       "Koen Nieuwenhuis",
-      "Jorn Meulenbeek",
-      "Timo Koskamp"
+      "Joris Huinink",
+      "Timo Koskamp",
+      "Rutger Hoefman",
+      "Jochem de Vroome",
+      "Hidde Walvoort"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Rutger Hoefman",
+        "Assist": null
+      }
+    ]
+  },
+  {
+    "Date": "2025-12-07",
+    "Eikel": "",
+    "ManOfTheMatch": [
+      "Tijmen te Bokkel"
+    ],
+    "Opponent": "Grol 12",
+    "Location": "Uit",
+    "Score": "0-0",
+    "Type": "Competite",
+    "Players": [
     ]
   },
   {
@@ -389,7 +396,7 @@
     "Opponent": "FC Trias 6",
     "Location": "Thuis",
     "Score": "1-5",
-    "Players":[
+    "Players": [
       "Bart Stronks",
       "Thijs Navis",
       "Henk Klein Nibbelink",
@@ -405,6 +412,12 @@
       "Sjoerd Rensing",
       "Luuk Schreurs",
       "Tijmen te Bokkel"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Wobbe Smit",
+        "Assist": null
+      }
     ]
   },
   {
@@ -421,13 +434,13 @@
     "GoalScorers": [
       {
         "Name": "Dennis van Vreeswijk",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       },
       {
-        "Name": "Thijs Navis",
-        "Assist": null,
-        "Minute": null
+        "Name": "Harm Visser",
+        "Assist": null
+
       }
     ],
     "Players":[
@@ -437,12 +450,15 @@
       "Kevin Winterswijk",
       "Harm Visser",
       "Joris Huinink",
-      "Wobbe Smit",
       "Jorn Meulenbeek",
       "Luka Koskamp",
       "Sjoerd Rensing",
       "Koen Pardijs",
-      "Niek Bussink"
+      "Niek Bussink",
+      "Ruben Klein Nibbelink",
+      "Wobbe Smit",
+      "Bram Gruppelaar",
+      "Dennis van Vreeswijk"
     ]
   },
   {
@@ -455,8 +471,8 @@
     "Opponent": "VIOS B. 6",
     "Location": "Thuis",
     "Score": "2-3",
-    "Players":[
-      "M Dammers",
+    "Players": [
+      "Marijn Dammers",
       "Jorn Meulenbeek",
       "Henk Klein Nibbelink",
       "Kevin Winterswijk",
@@ -472,6 +488,16 @@
       "Bram Gruppelaar",
       "Danny Willemsen",
       "Thijs Walterbos"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Harm Visser",
+        "Assist": "Thijs Walterbos"
+      },
+      {
+        "Name": "Harm Visser",
+        "Assist": null
+      }
     ]
   },
   {
@@ -488,16 +514,17 @@
     "GoalScorers": [
       {
         "Name": "Kevin Winterswijk",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       },
       {
         "Name": "Harm Visser",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       }
     ],
-    "Players":[
+    "Players": [
+      "Marijn Dammers",
       "Timo Koskamp",
       "Thijs Navis",
       "Henk Klein Nibbelink",
@@ -511,7 +538,8 @@
       "Tijmen te Bokkel",
       "Jordy Lorijn",
       "Kevin Velthuys",
-      "Robbin Dibbets"
+      "Robin Dibbets",
+      "Harm Visser"
     ]
   },
   {
@@ -527,18 +555,18 @@
     "GoalScorers": [
       {
         "Name": "Wobbe Smit",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       },
       {
         "Name": "Wobbe Smit",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       },
       {
         "Name": "Wobbe Smit",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
+
       }
     ],
     "Players": [
@@ -570,27 +598,29 @@
     "Score": "2-3",
     "GoalScorers": [
       {
+          "Name": "Jordy Lorijn",
+          "Assist": null
+      },
+      {
         "Name": "Koen Nieuwenhuis",
-        "Assist": null,
-        "Minute": null
+        "Assist": null
       }
     ],
     "Players": [
       "Bart Stronks",
       "Thijs Navis",
       "Henk Klein Nibbelink",
-      "Kevin Winterswijk",
       "Joris Huinink",
       "Wobbe Smit",
       "Ibe Smit",
-      "Jochem Meulenbeek",
       "Perry van der Sligte",
       "Koen Nieuwenhuis",
       "Bram Gruppelaar",
       "Jordy Lorijn",
       "Niek Bussink",
       "Koen Pardijs",
-      "Luc Sheridan"
+      "Luc Sheridan",
+      "Jorn Meulenbeek"
     ]
   },
   {
@@ -611,13 +641,13 @@
       "Harm Visser",
       "Wobbe Smit",
       "Ibe Smit",
-      "Jochem Meulenbeek",
       "Koen Nieuwenhuis",
       "Henk Klein Nibbelink",
       "Joris Huinink",
       "Niek Bussink",
       "Sjoerd Rensing",
-      "Luuk Schreurs"
+      "Luuk Schreurs",
+      "Jorn Meulenbeek"
     ]
   },
   {
@@ -634,18 +664,17 @@
     "GoalScorers": [
       {
         "Name": "Harm Visser",
-        "Assist": null,
-        "Minute": null
+        "Assist": "Geert te Hennepe"
+
       },
       {
         "Name": "Harm Visser",
-        "Assist": null,
-        "Minute": null
+        "Assist": "Geert te Hennepe"
+
       },
       {
         "Name": "Geert te Hennepe",
-        "Assist": null,
-        "Minute": null
+        "Assist": "Harm Visser"
       }
     ],
     "Players": [
@@ -654,17 +683,15 @@
       "Thijs Navis",
       "Kevin Winterswijk",
       "Harm Visser",
-      "Wobbe Smit",
       "Ibe Smit",
-      "Jochem Meulenbeek",
       "Luka Koskamp",
-      "Henk Klein Nibbelink",
       "Jochem de Vroome",
       "Mark Luiten",
-      "Frank Blekkink",
       "Koen Nieuwenhuis",
       "Bram Gruppelaar",
-      "Joris Huinink"
+      "Joris Huinink",
+      "Jorn Meulenbeek",
+      "Luuk Schreurs"
     ]
   },
   {
@@ -681,20 +708,28 @@
     "Location": "Thuis",
     "Players": [
       "Bart Stronks",
-      "Geert te Hennepe",
       "Thijs Navis",
       "Kevin Winterswijk",
       "Harm Visser",
       "Wobbe Smit",
       "Ibe Smit",
-      "Jochem Meulenbeek",
+      "Jorn Meulenbeek",
       "Luka Koskamp",
       "Henk Klein Nibbelink",
       "Jochem de Vroome",
       "Mark Luiten",
-      "H Walvoort",
+      "Hidde Walvoort",
       "Ilja Jansen",
-      "Roel Woordes"
+      "Roel Woordes",
+      "Bram Gruppelaar"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Harm Visser"
+      },
+      {
+        "Name": "Thijs Navis"
+      }
     ]
   },
   {
@@ -720,7 +755,7 @@
       "Henk Klein Nibbelink",
       "Jochem de Vroome",
       "Koen Nieuwenhuis",
-      "Jochem Meulenbeek",
+      "Jorn Meulenbeek",
       "Frank Blekkink",
       "Sjoerd Rensing",
       "Jordi Bussink"
@@ -752,6 +787,12 @@
     "Type": "Beker",
     "ManOfTheMatch": [
       "Harm Visser"
+    ],
+    "GoalScorers": [
+      {
+        "Name": "Harm Visser",
+        "Assist": "Wobbe Smit"
+      }
     ]
   }
 ]

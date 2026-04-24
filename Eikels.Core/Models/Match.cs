@@ -16,8 +16,6 @@
         {
             public string Name { get; set; }
             public string? Assist { get; set; }
-            public int? Minute { get; set; }
-
         }
     }
 }

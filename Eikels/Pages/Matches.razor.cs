@@ -24,9 +24,9 @@ namespace Eikels.Pages
             if (string.IsNullOrWhiteSpace(score)) return Color.Default;
             return DataHelper.HasWon(score, location) switch
             {
-                true => Color.Success,
-                false => Color.Error,
-                _ => Color.Default
+                DataHelper.ScoreType.WON => Color.Success,
+                DataHelper.ScoreType.LOSS => Color.Error,
+                DataHelper.ScoreType.DRAW => Color.Default,
             };
         }
 

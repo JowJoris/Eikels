@@ -9,7 +9,7 @@
         <MudText Typo="Typo.h6">Wedstrijden</MudText>
     </ToolBarContent>
     <HeaderContent>
-        <MudTh>📅</MudTh>
+        <MudTh Size>📅</MudTh>
         <MudTh>Tegenstander</MudTh>
         <MudTh>📍</MudTh>
         <MudTh>Score</MudTh>
@@ -18,7 +18,7 @@
         <MudTh>⚽</MudTh>
     </HeaderContent>
     <RowTemplate>
-        <MudTd DataLabel="📅">@context.Date.ToString("dd-MM")</MudTd>
+        <MudTd DataLabel="📅" Style="white-space: nowrap;">@context.Date.ToString("dd-MM")</MudTd>
         <MudTd DataLabel="Tegenstander">@context.Opponent</MudTd>
         <MudTd DataLabel="📍">@context.Location</MudTd>
         <MudTd DataLabel="Score"><MudText Color="GetScoreColor(context.Score, context.Location)">@context.Score</MudText></MudTd>
