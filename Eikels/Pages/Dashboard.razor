@@ -57,23 +57,5 @@
                 }
             </MudPaper>
         </MudItem>
-        <MudItem xs="12" sm="6" md="3">
-            <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                <MudChart 
-                    ChartType="ChartType.Pie" 
-                    LegendPosition="Position.Right",
-                    
-                    ChartSeries="@GetPieChartData().AsChartDataSet()" 
-                    ChartLabels="@GetPieChartLabels()" 
-                    Width="100%" 
-                    Height="170px"
-                    ChartOptions="new ChartOptions()
-                        {
-                            ChartPalette = GetPieChartColors(),
-                        }"
-                    />
-            </MudPaper>
-        </MudItem>
-
     </MudGrid>
 </MudContainer>

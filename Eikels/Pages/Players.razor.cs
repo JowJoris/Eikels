@@ -30,17 +30,31 @@ namespace Eikels.Pages
                     }
 
                     player.Matches++;
-                    if (match.ManOfTheMatch.Contains(playerName, StringComparer.OrdinalIgnoreCase))
-                    {
-                        player.ManOfTheMatch++;
-                    }
-                    if (match.Eikel.Equals(playerName, StringComparison.OrdinalIgnoreCase))
-                    {
-                        player.Eikels++;
-                    }
 
                     player.Goals += match.GoalScorers.Count(gs => gs.Name.Equals(playerName, StringComparison.OrdinalIgnoreCase));
                     player.Assists += match.GoalScorers.Count(gs => !string.IsNullOrWhiteSpace(gs.Assist) && gs.Assist.Equals(playerName, StringComparison.OrdinalIgnoreCase));
+                }
+
+                foreach (var motm in match.ManOfTheMatch)
+                {
+                    var player = PlayerList.SingleOrDefault(p => p.Name == motm);
+                    if (player == null)
+                    {
+                        player = new Player() { Name = motm };
+                        PlayerList.Add(player);
+                    }
+                    player.ManOfTheMatch++;
+                }
+
+                if (!string.IsNullOrWhiteSpace(match.Eikel))
+                {
+                    var player = PlayerList.SingleOrDefault(p => p.Name == match.Eikel);
+                    if (player == null)
+                    {
+                        player = new Player() { Name = match.Eikel };
+                        PlayerList.Add(player);
+                    }
+                    player.Eikels++;
                 }
             }
         }
