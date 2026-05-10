@@ -13,11 +13,35 @@
     "Opponent": "Grol 12",
     "Location": "Thuis",
     "Date": "2026-05-10",
-    "Players": [],
-    "Score": "",
-    "Eikel": "",
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Joris Huinink",
+      "Jochem de Vroome",
+      "Henk Klein Nibbelink",
+      "Kevin Winterswijk",
+      "Harm Visser",
+      "Ibe Smit",
+      "Wobbe Smit",
+      "Danny Willemsen",
+      "Rick Wind",
+      "Kevin Velthuys",
+      "Geert te Hennepe"
+    ],
+    "Score": "1-1",
+    "Eikel": "Kevin Velthuys",
     "Type": "Competitie",
-    "ManOfTheMatch": []
+    "ManOfTheMatch": [],
+    "GoalScorers": [
+      {
+        "Name": "Geert te Hennepe",
+        "Assist": null
+      },
+      {
+        "Name": "Danny Willemsen",
+        "Assist": null
+      }
+    ]
   },
   {
     "Opponent": "KSV 4",
