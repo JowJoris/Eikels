@@ -24,7 +24,12 @@
     "Eikel": "Kevin Winterswijk",
     "Type": "Competitie",
     "ManOfTheMatch": ["Geert te Hennepe"],
-    "GoalScorers": ["Kevin Winterswijk"]
+    "GoalScorers": 
+    [{
+        "Name": "Kevin Winterswijk",
+        "Assist": null
+
+    }]
   },
   {
     "Opponent": "Grol 12",
