@@ -23,7 +23,8 @@
     "Score": "2-1",
     "Eikel": "Kevin Winterswijk",
     "Type": "Competitie",
-    "ManOfTheMatch": ["Geert te Hennepe"]
+    "ManOfTheMatch": ["Geert te Hennepe"],
+    "GoalScorers": ["Kevin Winterswijk"]
   },
   {
     "Opponent": "Grol 12",
