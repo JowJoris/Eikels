@@ -49,11 +49,11 @@
                 <MudText Typo="Typo.subtitle1">@NextBirthdayPlayer?.Birthday.ToString("dd-MM-yyyy")</MudText>
                 @if(NextBirthdayPlayer?.Birthday.DayOfYear - DateTime.Now.DayOfYear >= 0)
                 {
-                    <MudText Typo="Typo.subtitle2">Over @((NextBirthdayPlayer?.Birthday.DayOfYear - DateTime.Now.DayOfYear)) dagen</MudText>
+                    <MudText Typo="Typo.subtitle2">Over @((NextBirthdayPlayer?.Birthday.DayOfYear - DateTime.Now.DayOfYear - 1)) dagen</MudText>
                 }
                 else
                 {
-                    <MudText Typo="Typo.subtitle2">Over @((NextBirthdayPlayer?.Birthday.AddYears(1).DayOfYear - DateTime.Now.DayOfYear)) dagen</MudText>
+                    <MudText Typo="Typo.subtitle2">Over @((NextBirthdayPlayer?.Birthday.AddYears(1).DayOfYear - DateTime.Now.DayOfYear - 1)) dagen</MudText>
                 }
             </MudPaper>
         </MudItem>

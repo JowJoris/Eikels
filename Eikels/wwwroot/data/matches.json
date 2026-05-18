@@ -3,11 +3,27 @@
     "Opponent": "FC Trias 6",
     "Location": "Uit",
     "Date": "2026-05-17",
-    "Players": [],
-    "Score": "",
-    "Eikel": "",
+    "Players": [
+      "Bart Stronks",
+      "Thijs Navis",
+      "Henk Klein Nibbelink",
+      "Geer te Hennepe",
+      "Kevin Velthuys",
+      "Ibe Smit",
+      "Harm Visser",
+      "Jorn Meulenbeek",
+      "Kevin Winterswijk",
+      "Rick Wind",
+      "Niek Bussink",
+      "D Geensen",
+      "Perry van der Sligte",
+      "Julian Heusinkveld",
+      "S Schokkin"
+    ],
+    "Score": "2-1",
+    "Eikel": "Kevin Winterswijk",
     "Type": "Competitie",
-    "ManOfTheMatch": []
+    "ManOfTheMatch": ["Geert te Hennepe"]
   },
   {
     "Opponent": "Grol 12",
